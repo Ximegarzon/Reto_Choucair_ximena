@@ -1,0 +1,22 @@
+Historia de Usuario: Añadir Candidato
+
+Como reclutador,
+Quiero añadir un nuevo candidato a la base de datos,
+Para gestionar y realizar un seguimiento de los candidatos que se postulan a una vacante.
+Criterios de Aceptación:
+Campos Obligatorios:
+
+El nombre del candidato debe ser un campo obligatorio.
+El apellido del candidato debe ser un campo obligatorio.
+La dirección de correo electrónico del candidato debe ser un campo obligatorio y debe tener un formato válido.
+El número de contacto del candidato debe ser un campo obligatorio.
+Validaciones:
+
+Si alguno de los campos obligatorios está vacío, se debe mostrar un mensaje de error que indique que todos los campos son obligatorios.
+Si el formato del correo electrónico es inválido, se debe mostrar un mensaje de error que indique que el formato del correo electrónico es incorrecto.
+Acción Exitosa:
+
+Una vez que todos los campos se hayan completado correctamente y el candidato se haya añadido, se debe mostrar un mensaje de éxito que indique que el candidato ha sido añadido correctamente.
+Persistencia de Datos:
+
+El nuevo candidato debe ser guardado en la base de datos para que se pueda acceder a su información en el futuro.
